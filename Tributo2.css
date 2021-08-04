@@ -1,0 +1,126 @@
+body {
+	font-family:cursive;
+}
+
+header {
+	background:linear-gradient(rgb(0, 0, 0),#ffffff);
+	padding: 20px 0;
+}
+.logo {
+    width: 30%;
+    height: 250px;
+    border: 6px solid #000000;
+    border-radius: 10px;
+}
+.logo:hover {
+	border: 6px solid #8d9999;
+}
+.caixa {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+
+nav {
+	position: absolute;
+	top: 110px;
+	right: 0;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+nav a {
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #C78C19;
+	font-size: 30px;
+    color: rgb(7, 7, 7);
+}
+footer {
+	text-align: center;
+	background: linear-gradient(#ffF,#080808);
+	padding: 40px 0;
+}
+
+.copyright {
+	color: #000000;
+	font-size: 13px;
+	margin: 20px 0 0;
+}
+main {
+    text-align: center;
+    font-size: 25px;
+    line-height: 1.5;
+    margin: 15px;
+}
+h2 {
+    font-size: 40px;
+}
+h3 {
+	font-size: 40px;
+}
+.obras {
+	line-height: 1.5;
+	margin: 30px;
+	text-align: center;
+	font-size: 25px;
+}
+.wal1 {
+	width: 250px;
+	margin: 40px;
+	height: 371px;
+	margin-left: 150px;
+	border: 6px solid #000000;
+	border-radius: 20px;
+}
+.wal1:hover {
+	border: 8px solid #8d9999;
+}
+
+
+.wal2 {
+	width: 250px;
+	margin: 40px;
+	height: 375px;
+	border: 6px solid #000000;
+	border-radius: 20px;
+}
+.wal2:hover {
+	border: 8px solid #565858;
+}
+.wal3 {
+	width: 250px;
+	margin: 40px;
+	height: 371px;
+	border: 6px solid #000000;
+	border-radius: 20px;
+}
+.wal3:hover {
+	border: 8px solid #565858;
+}
+.title {
+	font-size: 40px;
+	font-family: cursive;
+	text-align: center;
+    margin: 10px;
+}
+.citacoes {
+	font-size: 25px;
+	text-align: center;
+	line-height: 2.0;
+	font-style: italic;
+}
+.jon {
+	text-align: center;
+	font-size: 28px;
+	font-style: italic;
+	font-weight: bold;
+}
